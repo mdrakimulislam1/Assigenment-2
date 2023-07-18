@@ -1,0 +1,99 @@
+*{
+margin: 0;
+padding: 0;
+
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Work Sans', sans-serif;
+
+}
+
+.nav-bar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+padding: 30px 150px;
+
+background: #FFF;
+
+
+}
+
+.menu-container{
+display: flex;
+gap: 20px;
+align-items: center;
+
+
+}
+
+.logo{
+display: flex;
+align-items: center;
+gap: 15px;
+
+}
+
+.menu-2{
+display: flex;
+background: rgba(11, 2, 35, 0.10);
+gap: 10px;
+padding: 15px;
+
+}
+.menu-1 a{
+
+padding-right: 10px;
+text-decoration: none;
+color: black;
+
+}
+
+.nav-titel{
+
+font-size: 2.8rem;
+
+}
+
+.G{
+   color: #f937b8;
+}
+
+
+/* Responsiv Aria */
+
+@media screen and (max-width: 1000px) {
+
+    .nav-bar{
+
+flex-direction: column;
+
+
+    }
+
+    .menu-container{
+flex-direction: column;
+
+    }
+    .menu-1 a{
+display: grid;
+grid-template-columns: 1fr;
+text-align: center;
+margin-top: 10px;
+
+    }
+
+    .menu-1{
+margin-top: 30px;
+margin-bottom: 30px;
+
+    }
+    
+}
+
+
+
+
