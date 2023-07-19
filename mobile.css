@@ -29,6 +29,7 @@ margin-bottom: 30px;
 /* Nav and */
 
 
+
 .banner-container{
 
 flex-direction: column-reverse;
@@ -49,21 +50,20 @@ margin: auto;
      }
 
      .banner-text{
-text-align: left;
-margin: auto;
-width: max-content;
 
-     }
-
-     .banner-img{
-  
-          width: 70%;
-          margin-top: 40px;
+          text-align: left;
+          margin: auto;
+          width: max-content;
+          
+               }
+               
+           .banner-img{
+            
+               width: 70%;
+            margin-top: 40px;
+                    
+           }
           
           
-          }
-
-
-
-
 }
+
