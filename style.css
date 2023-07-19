@@ -1,6 +1,7 @@
 *{
 margin: 0;
 padding: 0;
+box-sizing: border-box;
 
 font-family: 'Fira Sans', sans-serif;
 font-family: 'Montserrat', sans-serif;
@@ -10,90 +11,53 @@ font-family: 'Work Sans', sans-serif;
 
 }
 
-.nav-bar{
+.nav-seciton{
+    border: 1px solid rgb(69, 4, 233);
+
+    
+}
+
+.nav-continer{
+
 display: flex;
 justify-content: space-between;
 align-items: center;
 
-padding: 30px 150px;
-
-background: #FFF;
-
-
-}
-
-.menu-container{
-display: flex;
-gap: 20px;
-align-items: center;
-
+border: 1px solid red;
+max-width: 1400px;
+margin: auto;
 
 }
 
-.logo{
+.nav-logo-tex{
+    border: 3px solid rgb(141, 227, 12);  
+    width: 50%;
 display: flex;
-align-items: center;
 gap: 15px;
-
-}
-
-.menu-2{
-display: flex;
-background: rgba(11, 2, 35, 0.10);
-gap: 10px;
-padding: 15px;
-
-}
-.menu-1 a{
-
-padding-right: 10px;
-text-decoration: none;
-color: black;
+align-items: center;
 
 }
 
 .nav-titel{
-
-font-size: 2.8rem;
-
-}
-
-.G{
-   color: #f937b8;
-}
-
-
-/* Responsiv Aria */
-
-@media screen and (max-width: 1000px) {
-
-    .nav-bar{
-
-flex-direction: column;
-
-
-    }
-
-    .menu-container{
-flex-direction: column;
-
-    }
-    .menu-1 a{
-display: grid;
-grid-template-columns: 1fr;
-text-align: center;
-margin-top: 10px;
-
-    }
-
-    .menu-1{
-margin-top: 30px;
-margin-bottom: 30px;
-
-    }
+    
+    font-size: 2.8rem;
+    font-weight: 700;
     
 }
 
+.nav-manu a{
+text-decoration: none;
+margin-right: 15px;
+
+}
+
+.manu-btn{
+    background: rgba(11, 2, 35, 0.10);
+padding: 10px 20px;
+border-radius: 5px;
+
+
+}
 
 
 
