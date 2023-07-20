@@ -12,7 +12,7 @@ font-family: 'Work Sans', sans-serif;
 }
 
 .nav-seciton{
-    border: 1px solid rgb(69, 4, 233);
+  
 margin-top: 30px;
     
 }
@@ -71,7 +71,7 @@ border-radius: 5px;
 background-image: url(./images/Group\ 14.png);
 background-repeat: no-repeat;
 background-position: left;
-border: 2px solid red;
+
 min-height: 50px;
 
 }
@@ -313,3 +313,197 @@ height: 500px;
 height: 500px;
 
 }
+
+/* Start section 3 */
+
+.section-3{
+    margin-top: 100px;
+position: relative;
+background-color: white;
+
+}
+
+.section-3container{
+
+max-width: 1400px;
+margin: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.section-3tex{
+
+text-align: right;
+
+}
+
+.section-3pic .horse{
+width: 100%;
+
+}
+
+
+.small-pic-1{
+display: block;
+position: absolute;
+
+top: 400px;
+left: 700px;
+}
+
+.Play-Insta{
+margin-bottom: 20px;
+
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+
+}
+
+.color-tex{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+/* Start button */
+
+.button-section{
+margin-top: 200px;
+background-color: white;
+
+}
+
+.button-container{
+
+max-width: 1400px;
+margin: auto;
+
+
+}
+
+
+
+.b-1{
+
+padding: 10px 20px;
+display: flex;
+align-items: center;
+gap: 15px;
+border: none;
+font-weight: 700;
+font-size: large;
+border-radius: 50px;
+background: #FFF;
+}
+
+.b-1:hover{
+color: #F948B2;
+border: 2px solid #F948B2;
+}
+
+.button-group-1{
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+    
+.button-group-2{
+margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+
+/* start footer section */
+
+.footer-section{margin-top: 200px;
+background-color: #0B0223;
+
+}
+.footer-logo{
+margin: auto;
+width: max-content;
+margin-top: 100px;
+
+
+
+}
+
+.footer-container{
+max-width: 1400px;
+margin: auto;
+border: 3px solid rgb(0, 0, 0);
+
+}
+.amar{
+color: #FFF;
+
+}
+.footer-a{
+margin-top: 50px;
+text-align: center;
+
+}
+
+
+
+.footer-a a{
+
+margin-right: 20px;
+text-decoration: none;
+color: white;
+
+}
+
+
+.footer-icon{
+    margin-top: 50px;
+text-align: center;
+
+}
+
+.footer-icon a{
+
+text-decoration: none;
+color: #FFF;
+font-size: 2rem;
+margin-right: 25px;
+
+}
+.two{
+    margin-top: 50px;
+text-align: center;
+
+}
+
+.two a{
+
+text-decoration: none;
+color: #9b9696;
+margin-right: 25px;
+
+}
+
+.small{
+margin-top: 30px;
+margin-bottom: 100px;
+text-align: center;
+
+}
+.last-tex{
+
+color: #766e88;
+
+}
+
+
+
